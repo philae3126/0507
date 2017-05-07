@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            height: 2000px;
+        }
+        .banana {
+            width: 200px;
+            height: 200px;
+            background-color: #ffff00;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: #ff0000;
+            position: absolute;
+            top:50px;
+            left:200px;
+            z-index: 100;
+        }
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color: #00ff45;
+            position: absolute;
+            top:70px;
+            left:220px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box2"></div>
+    <div class="banana"></div>
+</body>
+</html>
